@@ -7,15 +7,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        ls:  ['Rubik', 'sans-serif'],
+        rb:  ['Rubik', 'sans-serif'],
       },
       colors: {
         blue: 'hsl(246, 80%, 60%)',
         lightRed: 'hsl(14, 100%, 70%)',
         softBlue: 'hsl(195, 74%, 62%)',
-        redStudy: 'hsl(348. 100%. 68%)',
+        redStudy: 'hsl(348, 100%, 68%)',
         limeGreen: 'hsl(145, 58%, 55%)',
-        violet:  'hsl(264, 64, 52%)',
+        darkViolet:  'hsl(264, 64%, 52%)',
         softOrange: 'hsl(43, 84%, 65%)',
 
         veryDark: 'hsl(226, 43%, 10%)',

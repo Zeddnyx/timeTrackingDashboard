@@ -1,14 +1,14 @@
-export default function Activity({img, title, hours, time}) {
+export default function Activity({img, title, hours, time, color}) {
 
   return <section className={section}>
-    <div className={divBg}>
+    <div className={`${divBg} ${color}`}>
       <img src={img} alt='work' />
     </div>
 
     <div className={div2}>
       <div className={divWork}>
         <h4>{title}</h4>
-        <button className={workBtn}>...</button>
+        <button className={workBtn}>. . .</button>
       </div>
 
       <div className={divHrs}>
@@ -19,14 +19,14 @@ export default function Activity({img, title, hours, time}) {
   </section>
 }
 
-const section = 'relative max-w-xl mx-auto'
+const section = 'relative  max-w-xl mx-auto -mb-[300px] ml-5'
 
-const divBg = 'bg-softOrange w-[319px] pl-60 mx-auto rounded-t-xl mt-80'
+const divBg = 'w-[319px] lg:w-60 h-20 pl-60 mx-auto rounded-xl z-10 mt-80'
 
-const div2 = 'w-80 mx-auto max-w-xl bg-darkBlue rounded-xl px-5 py-7 absolute top-[60px] left-10'
-const divWork = 'flex justify-between my-3 items-center font-extrabold'
+const div2 = 'w-80 lg:w-60 mx-auto max-w-xl bg-darkBlue rounded-xl z-30 px-5 py-5'
+const divWork = 'flex justify-between my-1 items-center font-extrabold'
 const workBtn = 'text-2xl outline-none'
 
-const divHrs = 'flex justify-between items-center mx-auto max-w-xl'
-const divh2 = 'text-4xl font-rb font-light'
+const divHrs = 'flex justify-between items-center mx-auto max-w-xl lg:h-[100px] lg:flex-col lg:items-start lg:mt-5'
+const divh2 = 'text-3xl lg:text-5xl font-rb font-light'
 const divp = 'text-paleBlue font-rb text-sm'
