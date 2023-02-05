@@ -28,7 +28,7 @@ const div1 = 'flex items-center xl:items-start w-full xl:flex-col xl:w-60 xl:h-8
 const divImg = 'w-20 h-20 border-2 border-[#eee] rounded-full'
 
 const divp = 'font-rb text-paleBlue text-sm xl:text-lg'
-const divh2 = 'font-rb text-xl xl:text-4xl'
+const divh2 = 'font-rb text-xl xl:text-4xl text-[#eee]'
 
 
 const div2 = 'xl:items-start w-[300px] text-paleBlue rounded-b-xl xl:w-60 flex xl:flex-col px-[31px] gap-10 z-10 top-[190px] xl:top-[390px] text-lg py-7 px-9'

@@ -24,9 +24,9 @@ const section = 'relative max-w-xl mx-auto h-40 border z-10 rounded-xl'
 const divBg = 'pl-[230px] z-10 relative'
 
 const div2 = 'w-full absolute top-10 rounded-xl bg-darkBlue z-30 px-5 py-6 hover:bg-naturalBlue'
-const divWork = 'flex justify-between my-1 items-center font-extrabold'
+const divWork = 'flex justify-between my-1 items-center font-extrabold text-[#eee]'
 const workBtn = 'text-2xl outline-none cursor-pointer'
 
 const divHrs = 'flex justify-between items-center xl:h-[100px] xl:flex-col xl:items-start xl:mt-5'
-const divh2 = 'text-3xl xl:text-5xl font-rb font-light'
+const divh2 = 'text-3xl xl:text-5xl font-rb font-light text-[#eee]'
 const divp = 'text-paleBlue font-rb text-sm'
