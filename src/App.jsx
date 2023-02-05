@@ -23,7 +23,7 @@ function App() {
   </div>
 }
 
-const div = 'flex flex-col lg:flex-row mx-auto max-w-7xl top-0 relative'
-const div1 = 'grid grid-cols-1 lg:grid-cols-3 mx-auto'
+const div = 'grid xl:flex mx-auto max-w-4xl mx-auto relative gap-[50px] xl:gap-12 items-center'
+const div1 = 'grid grid-cols-1 xl:grid-cols-3 mx-auto gap-5 xl:gap-36'
 
 export default App
